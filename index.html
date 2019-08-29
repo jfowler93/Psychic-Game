@@ -3,22 +3,37 @@
 
 
 <head>
- <meta charset="UTF-8">
- <title>Psychic Game</title>
+    <meta charset="UTF-8">
+    <title>Psychic Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-mtS696VnV9qeIoC8w/PrPoRzJ5gwydRVn0oQ9b+RJOPxE1Z1jXuuJcyeNxvNZhdx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
 <body>
-<h1> The Psychic Game </h1>
- <div>
-   <p id="directions-text">Press Any Key to Start</p>
-   <p id="userchoice-text"></p>
-   <p id="computerchoice-text"></p>
-   <p id="wins-text"></p>
-   <p id="losses-text"></p>
-   <p id="guesses-left"></p>
-   <p id="letter"></p>
- </div>
+    <div class="container justify-content-center">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">The Psychic Game</h1>
+                <p class="lead">
+                    <div id="gameText">
+                        <p id="directions-text">Press Any Key to Start</p>
+                        <p id="userchoice-text"></p>
+                        <p id="computerchoice-text"></p>
+                        <p id="wins-text"></p>
+                        <p id="losses-text"></p>
+                        <p id="guesses-left"></p>
+                        <p id="letter"></p>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
     <script src="assets/javascript/game.js"></script>
 </body>
 
